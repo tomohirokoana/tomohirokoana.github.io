@@ -1,0 +1,59 @@
+# Site
+# repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Tomohiro Koana
+title: PhD Student
+email: tomohiro.koana@tu-berlin.de
+# website: www.github.com/sproogen/resume-theme
+
+# Social links
+# twitter_username: facespics
+# github_username:  sproogen
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: chillwildlife
+# linkedin_username: jameswgrant
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+orcid_username: 0000-0002-8684-0611
+
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  A PhD student at TU Berlin
+
+# Projects Section
+projects_title: Publications
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+# more_content: | # this will include new lines to allow paragraphs
+#   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#    - Rock climbing
+#    - Gaming
+#    - Knitting
+#    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+# footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

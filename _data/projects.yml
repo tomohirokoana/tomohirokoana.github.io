@@ -1,0 +1,29 @@
+- layout: top-middle
+  name: Complexity of Combinatorial Matrix Completion With Diameter Constraints
+  description: |
+    Tomohiro Koana, Vincent Froese, Rolf Niedermeier.<br/>
+    [arXiv (2020)](https://arxiv.org/abs/2002.05068)
+
+- layout: top-middle
+  name: Parameterized Algorithms for Matrix Completion With Radius Constraints
+  description: |
+    Tomohiro Koana, Vincent Froese, Rolf Niedermeier.<br/>
+    [arXiv (2020)](https://arxiv.org/abs/2002.00645)
+
+- layout: top-middle
+  name: Parameterized Complexity of Geodetic Set
+  description: |
+    Leon Kellerhals, Tomohiro Koana.<br/>
+    [arXiv (2020)](https://arxiv.org/abs/2001.03098)
+
+- layout: top-middle
+  name: "Data Reduction for Maximum Matching on Real-World Graphs: Theory and Experiments"
+  description: |
+    Tomohiro Koana, Viatcheslav Korenwein, André Nichterlein, Rolf Niedermeier, Philipp Zschoche.<br/>
+    [arXiv (2019)](https://arxiv.org/abs/1806.09683)
+
+- layout: top-middle
+  name: Parameterized Complexity of Min-Power Asymmetric Connectivity
+  description: |
+    Matthias Bentert, Roman Haag, Chris Hofer, Tomohiro Koana, André Nichterlein.<br/>
+    [IWOCA (2019)](https://doi.org/10.1007/978-3-030-25005-8_8)
