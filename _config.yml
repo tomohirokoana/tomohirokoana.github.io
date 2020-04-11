@@ -4,7 +4,7 @@
 
 # Personal info
 name: Tomohiro Koana
-title: PhD Student
+title: PhD Student at TU Berlin
 email: tomohiro.koana@tu-berlin.de
 # website: www.github.com/sproogen/resume-theme
 
@@ -25,7 +25,8 @@ orcid_username: 0000-0002-8684-0611
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  A PhD student at TU Berlin
+  I do research in theoretical computer science.
+  I am primarily interested in the design of combinatorial algorithms for NP-hard problems.
 
 # Projects Section
 projects_title: Publications
