@@ -1,30 +1,38 @@
 - layout: top-middle
+  name: Exploiting c-Clousre in Kernelization Algorithms for Graph Problems
+  description: |
+    Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br/>
+    ESA 2020 (to appear) |
+    [arXiv](https://arxiv.org/abs/2005.03986)
+
+- layout: top-middle
   name: Complexity of Combinatorial Matrix Completion With Diameter Constraints
   description: |
     Tomohiro Koana, Vincent Froese, Rolf Niedermeier.<br/>
-    [arXiv (2020)](https://arxiv.org/abs/2002.05068)
+    [arXiv](https://arxiv.org/abs/2002.05068)
 
 - layout: top-middle
   name: Parameterized Algorithms for Matrix Completion With Radius Constraints
   description: |
     Tomohiro Koana, Vincent Froese, Rolf Niedermeier.<br/>
-    CPM 2020 (to appear) | 
-    [arXiv (2020)](https://arxiv.org/abs/2002.00645)
+    [CPM 2020](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=12145) | 
+    [arXiv](https://arxiv.org/abs/2002.00645)
 
 - layout: top-middle
   name: Parameterized Complexity of Geodetic Set
   description: |
     Leon Kellerhals, Tomohiro Koana.<br/>
-    [arXiv (2020)](https://arxiv.org/abs/2001.03098)
+    [arXiv](https://arxiv.org/abs/2001.03098)
 
 - layout: top-middle
   name: "Data Reduction for Maximum Matching on Real-World Graphs: Theory and Experiments"
   description: |
     Tomohiro Koana, Viatcheslav Korenwein, André Nichterlein, Rolf Niedermeier, Philipp Zschoche.<br/>
-    [arXiv (2019)](https://arxiv.org/abs/1806.09683)
+    [arXiv](https://arxiv.org/abs/1806.09683)
 
 - layout: top-middle
   name: Parameterized Complexity of Min-Power Asymmetric Connectivity
   description: |
     Matthias Bentert, Roman Haag, Chris Hofer, Tomohiro Koana, André Nichterlein.<br/>
-    [IWOCA (2019)](https://doi.org/10.1007/978-3-030-25005-8_8)
+    [IWOCA (2019)](https://doi.org/10.1007/978-3-030-25005-8_8) |
+    [arXiv](https://arxiv.org/abs/2005.14620)
