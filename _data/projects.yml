@@ -8,7 +8,7 @@
   name: Computing Dense and Sparse Subgraphs of Weakly Closed Graphs
   description: |
     Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br/>
-    ISAAC 2020 (to appear) |
+    [ISAAC 2020](https://drops.dagstuhl.de/opus/volltexte/2020/13364/) |
     [arXiv](https://arxiv.org/abs/2007.05630)
 
 - layout: top-middle
@@ -22,6 +22,7 @@
   name: Complexity of Combinatorial Matrix Completion With Diameter Constraints
   description: |
     Tomohiro Koana, Vincent Froese, Rolf Niedermeier.<br/>
+    STACS 2021 (to appear) |
     [arXiv](https://arxiv.org/abs/2002.05068)
 
 - layout: top-middle
@@ -35,17 +36,20 @@
   name: Parameterized Complexity of Geodetic Set
   description: |
     Leon Kellerhals, Tomohiro Koana.<br/>
+    [IPEC 2020](https://drops.dagstuhl.de/opus/volltexte/2020/13323/) |
     [arXiv](https://arxiv.org/abs/2001.03098)
 
 - layout: top-middle
   name: "Data Reduction for Maximum Matching on Real-World Graphs: Theory and Experiments"
   description: |
     Tomohiro Koana, Viatcheslav Korenwein, André Nichterlein, Rolf Niedermeier, Philipp Zschoche.<br/>
+    ACM J. Exp. Algorithmics (to appear) |
     [arXiv](https://arxiv.org/abs/1806.09683)
 
 - layout: top-middle
   name: Parameterized Complexity of Min-Power Asymmetric Connectivity
   description: |
     Matthias Bentert, Roman Haag, Chris Hofer, Tomohiro Koana, André Nichterlein.<br/>
+    [Theory Comput. Syst.](https://link.springer.com/article/10.1007/s00224-020-09981-w) |
     [IWOCA 2019](https://doi.org/10.1007/978-3-030-25005-8_8) |
     [arXiv](https://arxiv.org/abs/2005.14620)
