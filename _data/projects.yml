@@ -1,15 +1,28 @@
 - layout: top-middle
-  name: Detecting and Enumerating Small Induced Subgraphs in c-Closed Graphs
-  description: |
-    Tomohiro Koana, André Nichterlein.<br/>
-    [arXiv](https://arxiv.org/abs/2007.12077)
-
-- layout: top-middle
-  name: Computing Dense and Sparse Subgraphs of Weakly Closed Graphs
+  name: Essentially Tight Kernels for (Weakly) Closed Graphs
   description: |
     Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br/>
-    [ISAAC 2020](https://drops.dagstuhl.de/opus/volltexte/2020/13364/) |
-    [arXiv](https://arxiv.org/abs/2007.05630)
+    [arXiv](https://arxiv.org/abs/2103.03914)
+
+- layout: top-middle
+  name: Complexity of Combinatorial Matrix Completion With Diameter Constraints
+  description: |
+    Tomohiro Koana, Vincent Froese, Rolf Niedermeier.<br/>
+    [STACS 2021](https://drops.dagstuhl.de/opus/volltexte/2021/13692/) |
+    [arXiv](https://arxiv.org/abs/2002.05068)
+
+- layout: top-middle
+  name: A Refined Complexity Analysis of Fair Districting over Graphs
+  description: |
+    Niclas Boehmer, Tomohiro Koana, Rolf Niedermeier.<br/>
+    [arXiv](https://arxiv.org/abs/2102.11864)
+
+- layout: top-middle
+  name: "The Complexity of Gerrymandering Over Graphs: Paths and Trees"
+  description: |
+    Matthias Bentert, Tomohiro Koana, Rolf Niedermeier.<br/>
+    WG 2021 (to appear) |
+    [arXiv](https://arxiv.org/abs/2102.08905)
 
 - layout: top-middle
   name: Exploiting c-Clousre in Kernelization Algorithms for Graph Problems
@@ -19,11 +32,17 @@
     [arXiv](https://arxiv.org/abs/2005.03986)
 
 - layout: top-middle
-  name: Complexity of Combinatorial Matrix Completion With Diameter Constraints
+  name: Computing Dense and Sparse Subgraphs of Weakly Closed Graphs
   description: |
-    Tomohiro Koana, Vincent Froese, Rolf Niedermeier.<br/>
-    STACS 2021 (to appear) |
-    [arXiv](https://arxiv.org/abs/2002.05068)
+    Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br/>
+    [ISAAC 2020](https://drops.dagstuhl.de/opus/volltexte/2020/13364/) |
+    [arXiv](https://arxiv.org/abs/2007.05630)
+
+- layout: top-middle
+  name: Detecting and Enumerating Small Induced Subgraphs in c-Closed Graphs
+  description: |
+    Tomohiro Koana, André Nichterlein.<br/>
+    [arXiv](https://arxiv.org/abs/2007.12077)
 
 - layout: top-middle
   name: Parameterized Algorithms for Matrix Completion With Radius Constraints
@@ -43,7 +62,7 @@
   name: "Data Reduction for Maximum Matching on Real-World Graphs: Theory and Experiments"
   description: |
     Tomohiro Koana, Viatcheslav Korenwein, André Nichterlein, Rolf Niedermeier, Philipp Zschoche.<br/>
-    ACM J. Exp. Algorithmics (to appear) |
+    [ACM J. Exp. Algorithmics](https://dl.acm.org/doi/abs/10.1145/3439801) |
     [arXiv](https://arxiv.org/abs/1806.09683)
 
 - layout: top-middle
