@@ -1,7 +1,22 @@
 - layout: top-middle
+  name: Covering Many (or Few) Edges with k Vertices in Sparse Graphs
+  description: |
+    Tomohiro Koana, Christian Komusiewicz, André Nichterlein, Frank Sommer.<br/>
+    [STACS 2022](https://drops.dagstuhl.de/opus/volltexte/2022/15852/) |
+    [arXiv](https://arxiv.org/abs/2201.05465)
+
+- layout: top-middle
+  name: A Refined Complexity Analysis of Fair Districting over Graphs
+  description: |
+    Niclas Boehmer, Tomohiro Koana, Rolf Niedermeier.<br/>
+    AAMAS 2022 (extened abstract to appear) |
+    [arXiv](https://arxiv.org/abs/2102.11864)
+
+- layout: top-middle
   name: Essentially Tight Kernels for (Weakly) Closed Graphs
   description: |
     Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br/>
+    [ISAAC 2021](https://www.dagstuhl.de/dagpub/978-3-95977-214-3) |
     [arXiv](https://arxiv.org/abs/2103.03914)
 
 - layout: top-middle
@@ -12,16 +27,10 @@
     [arXiv](https://arxiv.org/abs/2002.05068)
 
 - layout: top-middle
-  name: A Refined Complexity Analysis of Fair Districting over Graphs
-  description: |
-    Niclas Boehmer, Tomohiro Koana, Rolf Niedermeier.<br/>
-    [arXiv](https://arxiv.org/abs/2102.11864)
-
-- layout: top-middle
   name: "The Complexity of Gerrymandering Over Graphs: Paths and Trees"
   description: |
     Matthias Bentert, Tomohiro Koana, Rolf Niedermeier.<br/>
-    WG 2021 (to appear) |
+    [WG 2021](https://link.springer.com/chapter/10.1007/978-3-030-86838-3_15) |
     [arXiv](https://arxiv.org/abs/2102.08905)
 
 - layout: top-middle
@@ -42,6 +51,7 @@
   name: Detecting and Enumerating Small Induced Subgraphs in c-Closed Graphs
   description: |
     Tomohiro Koana, André Nichterlein.<br/>
+    [Discrete Appl. Math.](https://www.sciencedirect.com/science/article/pii/S0166218X21002572) |
     [arXiv](https://arxiv.org/abs/2007.12077)
 
 - layout: top-middle
