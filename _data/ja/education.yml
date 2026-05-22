@@ -1,7 +1,7 @@
 - layout: left
   name: ベルリン工科大学
   dates: 2020年2月 - 2024年1月
-  qualification: 博士（情報学）
+  qualification: 博士（情報科学）
   description: |
     博士論文: *New Parameterized Algorithms for Matching and Packing Problems*.<br/>
     指導教員: Prof. Rolf Niedermeier.
@@ -9,7 +9,7 @@
 - layout: left
   name: ベルリン工科大学
   dates: 2017年10月 - 2019年12月
-  qualification: 修士（情報学）
+  qualification: 修士（情報科学）
   description: |
     修士論文: *Algorithmic and Structural Aspects of Matrix Completion Problems*.<br/>
     指導教員: Prof. Rolf Niedermeier.
