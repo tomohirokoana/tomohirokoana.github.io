@@ -2,6 +2,11 @@
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
+      {%- if site.email -%}
+        <p class="header-email">
+          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+        </p>
+      {%- endif -%}
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <p class="language-switch no-print">
@@ -12,11 +17,6 @@
         {%- endif -%}
       </p>
 
-      {%- if site.email -%}
-        <p>
-          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-        </p>
-      {%- endif -%}
     </div>
   </div>
 </div>
