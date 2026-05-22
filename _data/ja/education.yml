@@ -1,0 +1,23 @@
+- layout: left
+  name: ベルリン工科大学
+  dates: 2020年2月 - 2024年1月
+  qualification: 博士（情報学）
+  description: |
+    博士論文: *New Parameterized Algorithms for Matching and Packing Problems*.<br/>
+    指導教員: Prof. Rolf Niedermeier.
+
+- layout: left
+  name: ベルリン工科大学
+  dates: 2017年10月 - 2019年12月
+  qualification: 修士（情報学）
+  description: |
+    修士論文: *Algorithmic and Structural Aspects of Matrix Completion Problems*.<br/>
+    指導教員: Prof. Rolf Niedermeier.
+
+- layout: left
+  name: 東京大学
+  dates: 2013年4月 - 2017年3月
+  qualification: 学士（電子情報工学）
+  description: |
+    卒業論文: *An analytic approach for statistical properties of stochastic oscillators and its application*.<br/>
+    指導教員: 長谷川 禎彦 准教授.

@@ -4,7 +4,9 @@
 
 # Personal info
 name: Tomohiro Koana
-title: PhD Student at TU Berlin
+title: Theoretical Computer Scientist
+email: tomohiro.koana@gmail.com
+url: "https://tomohirokoana.github.io"
 # website: www.github.com/sproogen/resume-theme
 
 # Social links
@@ -18,23 +20,23 @@ title: PhD Student at TU Berlin
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
-orcid_username: 0000-0002-8684-0611
 
 # About Section
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I do research in theoretical computer science.
-  I am primarily interested in the design of combinatorial algorithms for NP-hard problems.
+  I am a Project Assistant Professor (特任助教) at the University of Tokyo.
+  My research is in theoretical computer science, especially the design and analysis of algorithms for NP-hard problems.
+  I am currently interested in algebraic methods for faster exponential-time algorithms, parameterized and exact algorithms, graph and matroid algorithms, counting problems, derandomization, and time-space tradeoffs.
 
 # Projects Section
-projects_title: Publications
+projects_title: Selected Publications
 
 # Experience Section
 # experience_title: Experience
 
 # Education Section
-# educaton_title: Education
+education_title: Education
 
 # More Section
 # more_title: A Little More About Me

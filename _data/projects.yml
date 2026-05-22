@@ -1,84 +1,48 @@
 - layout: top-middle
-  name: Covering Many (or Few) Edges with k Vertices in Sparse Graphs
   description: |
-    Tomohiro Koana, Christian Komusiewicz, André Nichterlein, Frank Sommer.<br/>
-    [STACS 2022](https://drops.dagstuhl.de/opus/volltexte/2022/15852/) |
-    [arXiv](https://arxiv.org/abs/2201.05465)
+    See [DBLP](https://dblp.org/pid/244/8353.html) or
+    [Google Scholar](https://scholar.google.com/citations?user=PewfzVoAAAAJ)
+    for complete publication lists.
 
 - layout: top-middle
-  name: A Refined Complexity Analysis of Fair Districting over Graphs
+  name: Determinantal Sieving
   description: |
-    Niclas Boehmer, Tomohiro Koana, Rolf Niedermeier.<br/>
-    AAMAS 2022 (extened abstract to appear) |
-    [arXiv](https://arxiv.org/abs/2102.11864)
+    Eduard Eiben, Tomohiro Koana, Magnus Wahlström.<br/>
+    [TheoretiCS 2025](https://doi.org/10.46298/theoretics.25.21) |
+    [SODA 2024](https://doi.org/10.1137/1.9781611977912.16)
+
+    Introduces determinantal sieving, an algebraic framework for parameterized algorithms over linear matroids. The method extends multilinear detection to matroidal constraints and gives cleaner or faster algorithms for a range of problems.
 
 - layout: top-middle
-  name: Essentially Tight Kernels for (Weakly) Closed Graphs
+  name: Faster Edge Coloring by Partition Sieving
+  description: |
+    Shyan Akmal, Tomohiro Koana.<br/>
+    [STACS 2025](https://doi.org/10.4230/LIPIcs.STACS.2025.7)
+
+    Gives an exact algorithm for Edge Coloring that improves over the standard 2^m-time baseline while using only polynomial space. The result is a step toward faster exact algorithms for one of the classical NP-hard coloring problems.
+
+- layout: top-middle
+  name: "Induced Matching Below Guarantees: Average Paves the Way for Fixed-Parameter Tractability"
+  description: |
+    Tomohiro Koana.<br/>
+    [STACS 2023](https://doi.org/10.4230/LIPIcs.STACS.2023.39)
+
+    Studies below-guarantee parameterizations of Induced Matching. The paper shows that two natural smaller guarantees are unlikely to yield fixed-parameter tractability on their own, but that their average does lead to an FPT branching algorithm using Gallai-Edmonds decomposition.
+
+- layout: top-middle
+  name: The Complexity of Finding Fair Many-To-One Matchings
+  description: |
+    Niclas Boehmer, Tomohiro Koana.<br/>
+    [ACM Transactions on Algorithms 2024](https://doi.org/10.1145/3649220) |
+    [ICALP 2022](https://doi.org/10.4230/LIPIcs.ICALP.2022.27)
+
+    Analyzes fair variants of bipartite many-to-one matching where colors model attributes. The paper proves hardness even under strong restrictions, gives FPT algorithms for structural parameters, and uses integer programs based on Hall-type conditions and a separation theorem inspired by Frank's work.
+
+- layout: top-middle
+  name: Exploiting c-Closure in Kernelization Algorithms for Graph Problems
   description: |
     Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br/>
-    [ISAAC 2021](https://www.dagstuhl.de/dagpub/978-3-95977-214-3) |
-    [arXiv](https://arxiv.org/abs/2103.03914)
+    [SIAM Journal on Discrete Mathematics 2022](https://doi.org/10.1137/21M1449476) |
+    [ESA 2020](https://doi.org/10.4230/LIPIcs.ESA.2020.65)
 
-- layout: top-middle
-  name: Complexity of Combinatorial Matrix Completion With Diameter Constraints
-  description: |
-    Tomohiro Koana, Vincent Froese, Rolf Niedermeier.<br/>
-    [STACS 2021](https://drops.dagstuhl.de/opus/volltexte/2021/13692/) |
-    [arXiv](https://arxiv.org/abs/2002.05068)
-
-- layout: top-middle
-  name: "The Complexity of Gerrymandering Over Graphs: Paths and Trees"
-  description: |
-    Matthias Bentert, Tomohiro Koana, Rolf Niedermeier.<br/>
-    [WG 2021](https://link.springer.com/chapter/10.1007/978-3-030-86838-3_15) |
-    [arXiv](https://arxiv.org/abs/2102.08905)
-
-- layout: top-middle
-  name: Exploiting c-Clousre in Kernelization Algorithms for Graph Problems
-  description: |
-    Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br/>
-    [ESA 2020](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=12931) |
-    [arXiv](https://arxiv.org/abs/2005.03986)
-
-- layout: top-middle
-  name: Computing Dense and Sparse Subgraphs of Weakly Closed Graphs
-  description: |
-    Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br/>
-    [ISAAC 2020](https://drops.dagstuhl.de/opus/volltexte/2020/13364/) |
-    [arXiv](https://arxiv.org/abs/2007.05630)
-
-- layout: top-middle
-  name: Detecting and Enumerating Small Induced Subgraphs in c-Closed Graphs
-  description: |
-    Tomohiro Koana, André Nichterlein.<br/>
-    [Discrete Appl. Math.](https://www.sciencedirect.com/science/article/pii/S0166218X21002572) |
-    [arXiv](https://arxiv.org/abs/2007.12077)
-
-- layout: top-middle
-  name: Parameterized Algorithms for Matrix Completion With Radius Constraints
-  description: |
-    Tomohiro Koana, Vincent Froese, Rolf Niedermeier.<br/>
-    [CPM 2020](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=12145) | 
-    [arXiv](https://arxiv.org/abs/2002.00645)
-
-- layout: top-middle
-  name: Parameterized Complexity of Geodetic Set
-  description: |
-    Leon Kellerhals, Tomohiro Koana.<br/>
-    [IPEC 2020](https://drops.dagstuhl.de/opus/volltexte/2020/13323/) |
-    [arXiv](https://arxiv.org/abs/2001.03098)
-
-- layout: top-middle
-  name: "Data Reduction for Maximum Matching on Real-World Graphs: Theory and Experiments"
-  description: |
-    Tomohiro Koana, Viatcheslav Korenwein, André Nichterlein, Rolf Niedermeier, Philipp Zschoche.<br/>
-    [ACM J. Exp. Algorithmics](https://dl.acm.org/doi/abs/10.1145/3439801) |
-    [arXiv](https://arxiv.org/abs/1806.09683)
-
-- layout: top-middle
-  name: Parameterized Complexity of Min-Power Asymmetric Connectivity
-  description: |
-    Matthias Bentert, Roman Haag, Chris Hofer, Tomohiro Koana, André Nichterlein.<br/>
-    [Theory Comput. Syst.](https://link.springer.com/article/10.1007/s00224-020-09981-w) |
-    [IWOCA 2019](https://doi.org/10.1007/978-3-030-25005-8_8) |
-    [arXiv](https://arxiv.org/abs/2005.14620)
+    Applies the c-closed graph model to kernelization for classic graph problems. The key ingredient is a polynomial Ramsey-type bound for c-closed graphs, which yields fixed-parameter algorithms and polynomial kernels for problems such as Dominating Set and Induced Matching.

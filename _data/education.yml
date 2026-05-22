@@ -1,10 +1,23 @@
-# - layout: left
-#   name: Harvard University
-#   dates: 2010 - 2013
-#   qualification: BSc Computer Science
-#   quote: >
-#     Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-#   description: | # this will include new lines to allow paragraphs
-#     During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+- layout: left
+  name: Technische Universität Berlin
+  dates: February 2020 - January 2024
+  qualification: PhD in Computer Science
+  description: |
+    Thesis: *New Parameterized Algorithms for Matching and Packing Problems*.<br/>
+    Advisor: Prof. Rolf Niedermeier.
 
-#     I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+- layout: left
+  name: Technische Universität Berlin
+  dates: October 2017 - December 2019
+  qualification: MSc in Computer Science
+  description: |
+    Thesis: *Algorithmic and Structural Aspects of Matrix Completion Problems*.<br/>
+    Advisor: Prof. Rolf Niedermeier.
+
+- layout: left
+  name: The University of Tokyo
+  dates: April 2013 - March 2017
+  qualification: BEng in Information and Communication Engineering
+  description: |
+    Thesis: *An analytic approach for statistical properties of stochastic oscillators and its application*.<br/>
+    Advisor: Prof. Yoshihiko Hasegawa.

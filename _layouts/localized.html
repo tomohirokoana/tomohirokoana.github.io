@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'ja' }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.name }} | {{ page.page_title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/favicon.ico' | relative_url }}">
+</head>
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="container intro-container">
+        <h3 id="{{ page.about_title | slugify | default: 'about' }}">{{ page.about_title | default: "About" }}</h3>
+        <div class="row clearfix">
+          <div class="col-xs-12">
+            {{ page.about_content | strip | markdownify }}
+          </div>
+        </div>
+      </div>
+
+      <div class="container education-container">
+        <h3 id="{{ page.education_title | slugify | default: 'education' }}">{{ page.education_title | default: "Education" }}</h3>
+        {% for education in site.data.ja.education %}
+          {% include v1/left.html item=education %}
+        {% endfor %}
+      </div>
+
+      <div class="container projects-container">
+        <h3 id="{{ page.projects_title | slugify | default: 'projects' }}">{{ page.projects_title | default: "Projects" }}</h3>
+        {% for project in site.data.ja.projects %}
+          {% include v1/top-middle.html item=project %}
+        {% endfor %}
+      </div>
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+</body>
+
+</html>

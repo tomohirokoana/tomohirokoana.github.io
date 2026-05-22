@@ -1,0 +1,47 @@
+- layout: top-middle
+  description: |
+    完全な論文リストは [DBLP](https://dblp.org/pid/244/8353.html) または
+    [Google Scholar](https://scholar.google.com/citations?user=PewfzVoAAAAJ) をご覧ください。
+
+- layout: top-middle
+  name: Determinantal Sieving
+  description: |
+    Eduard Eiben, Tomohiro Koana, Magnus Wahlström.<br/>
+    [TheoretiCS 2025](https://doi.org/10.46298/theoretics.25.21) |
+    [SODA 2024](https://doi.org/10.1137/1.9781611977912.16)
+
+    線形マトロイド上のパラメータ化アルゴリズムに対する代数的枠組み determinantal sieving を導入しました。多重線形項検出をマトロイド制約へ拡張し、複数の既存結果を高速化または簡潔化しています。
+
+- layout: top-middle
+  name: Faster Edge Coloring by Partition Sieving
+  description: |
+    Shyan Akmal, Tomohiro Koana.<br/>
+    [STACS 2025](https://doi.org/10.4230/LIPIcs.STACS.2025.7)
+
+    辺彩色問題に対し、標準的な 2^m 時間の枠組みを改善しつつ、多項式空間で動作する厳密アルゴリズムを与えました。古典的な NP 困難問題に対する高速な指数時間アルゴリズムへの一歩です。
+
+- layout: top-middle
+  name: "Induced Matching Below Guarantees: Average Paves the Way for Fixed-Parameter Tractability"
+  description: |
+    Tomohiro Koana.<br/>
+    [STACS 2023](https://doi.org/10.4230/LIPIcs.STACS.2023.39)
+
+    誘導マッチング問題の下限保証パラメータ化を研究しました。二つの自然な保証値は単独では固定パラメータ可解性を導きにくい一方、それらの平均を用いることで Gallai-Edmonds 分解に基づく FPT 分岐アルゴリズムを構築しています。
+
+- layout: top-middle
+  name: The Complexity of Finding Fair Many-To-One Matchings
+  description: |
+    Niclas Boehmer, Tomohiro Koana.<br/>
+    [ACM Transactions on Algorithms 2024](https://doi.org/10.1145/3649220) |
+    [ICALP 2022](https://doi.org/10.4230/LIPIcs.ICALP.2022.27)
+
+    属性を色で表す二部グラフ上の公平な多対一マッチングを解析しました。強い制約下での NP 困難性、構造パラメータに関する FPT アルゴリズム、Hall 型条件に基づく整数線形計画定式化を与えています。
+
+- layout: top-middle
+  name: Exploiting c-Closure in Kernelization Algorithms for Graph Problems
+  description: |
+    Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br/>
+    [SIAM Journal on Discrete Mathematics 2022](https://doi.org/10.1137/21M1449476) |
+    [ESA 2020](https://doi.org/10.4230/LIPIcs.ESA.2020.65)
+
+    c-closed グラフモデルを古典的なグラフ問題のカーネル化に応用しました。c-closed グラフにおける Ramsey 型の多項式上界を鍵として、支配集合問題や誘導マッチング問題などに対する固定パラメータアルゴリズムと多項式カーネルを示しています。

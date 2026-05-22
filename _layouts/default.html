@@ -2,6 +2,26 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 {%- include head.html -%}
+{%- if page.redirect_japanese -%}
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      if (params.get("lang") === "en") return;
+      if (params.get("lang") === "ja") {
+        window.location.replace("{{ '/ja/' | relative_url }}");
+        return;
+      }
+
+      var languages = navigator.languages || [navigator.language || navigator.userLanguage || ""];
+      for (var i = 0; i < languages.length; i += 1) {
+        if (/^ja(?:-|$)/i.test(languages[i])) {
+          window.location.replace("{{ '/ja/' | relative_url }}");
+          return;
+        }
+      }
+    }());
+  </script>
+{%- endif -%}
 
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
