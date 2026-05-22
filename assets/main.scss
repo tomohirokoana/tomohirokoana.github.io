@@ -12,8 +12,15 @@
   margin-top: 1rem;
 }
 
+.identity-block {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .header-email {
   font-size: 1.6rem;
+  margin-left: 0.5rem;
   margin-top: 0.8rem;
   text-align: left;
 }
