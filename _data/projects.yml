@@ -5,6 +5,14 @@
     for complete publication lists.
 
 - layout: top-middle
+  name: Approximate Counting of k-Paths in O*(2^k) Time
+  description: |
+    Tomohiro Koana.<br/>
+    [Manuscript (PDF, 2026)](/papers/approximate-counting-k-paths.pdf)
+
+    Resolves the Koutis–Williams conjecture by giving a randomized (1 ± ε)-approximation for counting directed k-paths in O*(2^k ε^-2 log(1/δ)) time.
+
+- layout: top-middle
   name: Determinantal Sieving
   description: |
     Eduard Eiben, Tomohiro Koana, Magnus Wahlström.<br/>

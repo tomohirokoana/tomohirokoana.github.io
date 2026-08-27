@@ -4,6 +4,14 @@
     [Google Scholar](https://scholar.google.com/citations?user=PewfzVoAAAAJ) をご覧ください。
 
 - layout: top-middle
+  name: Approximate Counting of k-Paths in O*(2^k) Time
+  description: |
+    Tomohiro Koana.<br/>
+    [Manuscript (PDF, 2026)](/papers/approximate-counting-k-paths.pdf)
+
+    Koutis–Williams 予想を解決し、有向グラフの k-path 数に対する (1 ± ε)-近似を O*(2^k ε^-2 log(1/δ)) 時間で求める乱択アルゴリズムを与えました。
+
+- layout: top-middle
   name: Determinantal Sieving
   description: |
     Eduard Eiben, Tomohiro Koana, Magnus Wahlström.<br/>
