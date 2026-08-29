@@ -6,5 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: default
+lang: en
+title: Theoretical Computer Scientist
 redirect_japanese: true
 ---

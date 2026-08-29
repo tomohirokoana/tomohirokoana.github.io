@@ -8,51 +8,65 @@
 <meta name="generator" content="Jekyll v3.10.0" />
 <meta property="og:title" content="Theoretical Computer Scientist" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="Personal academic website of Tomohiro Koana, a theoretical computer scientist working on algorithms for NP-hard problems." />
+<meta property="og:description" content="Personal academic website of Tomohiro Koana, a theoretical computer scientist working on algorithms for NP-hard problems." />
+<link rel="canonical" href="https://tomohirokoana.github.io/" />
+<meta property="og:url" content="https://tomohirokoana.github.io/" />
 <meta property="og:site_name" content="Theoretical Computer Scientist" />
+<meta property="og:image" content="https://tomohirokoana.github.io/images/og.png" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:alt" content="Tomohiro Koana, Theoretical Computer Scientist" />
 <meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://tomohirokoana.github.io/images/og.png" />
+<meta name="twitter:image:alt" content="Tomohiro Koana, Theoretical Computer Scientist" />
 <meta property="twitter:title" content="Theoretical Computer Scientist" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Theoretical Computer Scientist","name":"Theoretical Computer Scientist","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Personal academic website of Tomohiro Koana, a theoretical computer scientist working on algorithms for NP-hard problems.","headline":"Theoretical Computer Scientist","image":{"alt":"Tomohiro Koana, Theoretical Computer Scientist","width":1200,"height":630,"url":"https://tomohirokoana.github.io/images/og.png","@type":"imageObject"},"name":"Theoretical Computer Scientist","url":"https://tomohirokoana.github.io/"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css">
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico"></head>
-<script>
-    (function () {
-      var params = new URLSearchParams(window.location.search);
-      if (params.get("lang") === "en") return;
-      if (params.get("lang") === "ja") {
-        window.location.replace("/ja/");
-        return;
-      }
+<link rel="alternate" hreflang="en" href="https://tomohirokoana.github.io/">
+  <link rel="alternate" hreflang="ja" href="https://tomohirokoana.github.io/ja/">
+  <link rel="alternate" hreflang="x-default" href="https://tomohirokoana.github.io/">
 
-      var languages = navigator.languages || [navigator.language || navigator.userLanguage || ""];
-      for (var i = 0; i < languages.length; i += 1) {
-        if (/^ja(?:-|$)/i.test(languages[i])) {
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" sizes="16x16"><script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        if (params.get("lang") === "en") return;
+        if (params.get("lang") === "ja") {
           window.location.replace("/ja/");
           return;
         }
-      }
-    }());
-  </script><body class=""><div class="container header-container">
+
+        var languages = navigator.languages || [navigator.language || navigator.userLanguage || ""];
+        for (var i = 0; i < languages.length; i += 1) {
+          if (/^ja(?:-|$)/i.test(languages[i])) {
+            window.location.replace("/ja/");
+            return;
+          }
+        }
+      }());
+    </script></head>
+<body class=""><div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <div class="identity-block">
         <h1>Tomohiro Koana</h1><p class="header-email">
-            Email: <a href="mailto:tomohiro.koana@gmail.com" target="_blank">tomohiro.koana@gmail.com</a>
+            Email: <a href="mailto:tomohiro.koana@gmail.com">tomohiro.koana@gmail.com</a>
           </p></div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
-      <p class="language-switch no-print"><a href="/ja/">日本語</a></p>
+      <nav aria-label="Language">
+        <p class="language-switch no-print"><a href="/ja/" lang="ja" hreflang="ja" aria-label="日本語に切り替える">日本語</a></p>
+      </nav>
 
     </div>
   </div>
 </div>
 <main class="page-content" aria-label="Content">
     <div class="wrapper"><div class="container intro-container">
-  <h3 id="about-me">About Me</h3>
+  <h2 class="section-heading" id="about-me">About Me</h2>
   <div class="row clearfix"><div class="col-xs-12 ">
       <p>I am a Project Assistant Professor (特任助教) at the University of Tokyo.
 My research is in theoretical computer science, especially the design and analysis of algorithms for NP-hard problems.
@@ -62,40 +76,30 @@ I am currently interested in algebraic methods for faster exponential-time algor
   </div>
 </div>
 <div class="container education-container">
-  <h3 id="education">Education</h3>
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Technische Universität Berlin</h4><p><b>PhD in Computer Science</b></p><p>February 2020 - January 2024</p></div>
+  <h2 class="section-heading" id="education">Education</h2><div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h3 class="item-heading">Technische Universität Berlin</h3><p><b>PhD in Computer Science</b></p><p>February 2020 - January 2024</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p>Thesis: <em>New Parameterized Algorithms for Matching and Packing Problems</em>.<br />
 Advisor: Prof. Rolf Niedermeier.</p>
 
   </div>
 </div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>Technische Universität Berlin</h4><p><b>MSc in Computer Science</b></p><p>October 2017 - December 2019</p></div>
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h3 class="item-heading">Technische Universität Berlin</h3><p><b>MSc in Computer Science</b></p><p>October 2017 - December 2019</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p>Thesis: <em>Algorithmic and Structural Aspects of Matrix Completion Problems</em>.<br />
 Advisor: Prof. Rolf Niedermeier.</p>
 
   </div>
 </div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>The University of Tokyo</h4><p><b>BEng in Information and Communication Engineering</b></p><p>April 2013 - March 2017</p></div>
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h3 class="item-heading">The University of Tokyo</h3><p><b>BEng in Information and Communication Engineering</b></p><p>April 2013 - March 2017</p></div>
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p>Thesis: <em>An analytic approach for statistical properties of stochastic oscillators and its application</em>.<br />
 Advisor: Prof. Yoshihiko Hasegawa.</p>
 
   </div>
 </div>
-
-  
 </div>
 <div class="container projects-container">
-  <h3 id="selected-publications">Selected Publications</h3>
-  
-    <div class="row clearfix layout layout-top-middle">
+  <h2 class="section-heading" id="selected-publications">Selected Publications</h2><div class="row clearfix layout layout-top-middle">
   <div class="col-xs-12 col-print-12 details"></div>
   <div class="col-xs-12 col-print-12"><p>See <a href="https://dblp.org/pid/244/8353.html">DBLP</a> or
 <a href="https://scholar.google.com/citations?user=PewfzVoAAAAJ">Google Scholar</a>
@@ -103,10 +107,8 @@ for complete publication lists.</p>
 
   </div>
 </div>
-
-
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>Approximate Counting of k-Paths in O*(2^k) Time</h4></div>
+<div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h3 class="item-heading">Approximate Counting of k-Paths in O*(2^k) Time</h3></div>
   <div class="col-xs-12 col-print-12"><p>Tomohiro Koana.<br />
 <a href="/papers/approximate-counting-k-paths.pdf">Manuscript (PDF, 2026)</a></p>
 
@@ -114,10 +116,8 @@ for complete publication lists.</p>
 
   </div>
 </div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>Determinantal Sieving</h4></div>
+<div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h3 class="item-heading">Determinantal Sieving</h3></div>
   <div class="col-xs-12 col-print-12"><p>Eduard Eiben, Tomohiro Koana, Magnus Wahlström.<br />
 <a href="https://doi.org/10.46298/theoretics.25.21">TheoretiCS 2025</a> |
 <a href="https://doi.org/10.1137/1.9781611977912.16">SODA 2024</a></p>
@@ -126,10 +126,8 @@ for complete publication lists.</p>
 
   </div>
 </div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>Faster Edge Coloring by Partition Sieving</h4></div>
+<div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h3 class="item-heading">Faster Edge Coloring by Partition Sieving</h3></div>
   <div class="col-xs-12 col-print-12"><p>Shyan Akmal, Tomohiro Koana.<br />
 <a href="https://doi.org/10.4230/LIPIcs.STACS.2025.7">STACS 2025</a></p>
 
@@ -137,10 +135,8 @@ for complete publication lists.</p>
 
   </div>
 </div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>Induced Matching Below Guarantees: Average Paves the Way for Fixed-Parameter Tractability</h4></div>
+<div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h3 class="item-heading">Induced Matching Below Guarantees: Average Paves the Way for Fixed-Parameter Tractability</h3></div>
   <div class="col-xs-12 col-print-12"><p>Tomohiro Koana.<br />
 <a href="https://doi.org/10.4230/LIPIcs.STACS.2023.39">STACS 2023</a></p>
 
@@ -148,10 +144,8 @@ for complete publication lists.</p>
 
   </div>
 </div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>The Complexity of Finding Fair Many-To-One Matchings</h4></div>
+<div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h3 class="item-heading">The Complexity of Finding Fair Many-To-One Matchings</h3></div>
   <div class="col-xs-12 col-print-12"><p>Niclas Boehmer, Tomohiro Koana.<br />
 <a href="https://doi.org/10.1145/3649220">ACM Transactions on Algorithms 2024</a> |
 <a href="https://doi.org/10.4230/LIPIcs.ICALP.2022.27">ICALP 2022</a></p>
@@ -160,10 +154,8 @@ for complete publication lists.</p>
 
   </div>
 </div>
-
-  
-    <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>Exploiting c-Closure in Kernelization Algorithms for Graph Problems</h4></div>
+<div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h3 class="item-heading">Exploiting c-Closure in Kernelization Algorithms for Graph Problems</h3></div>
   <div class="col-xs-12 col-print-12"><p>Tomohiro Koana, Christian Komusiewicz, Frank Sommer.<br />
 <a href="https://doi.org/10.1137/21M1449476">SIAM Journal on Discrete Mathematics 2022</a> |
 <a href="https://doi.org/10.4230/LIPIcs.ESA.2020.65">ESA 2020</a></p>
@@ -172,15 +164,14 @@ for complete publication lists.</p>
 
   </div>
 </div>
-
-  
 </div>
 </div>
   </main><div class="container footer-container">
   <p>
     Tomohiro Koana -
-    <a href="mailto:tomohiro.koana@gmail.com" target="_blank">tomohiro.koana@gmail.com</a></p>
+    <a href="mailto:tomohiro.koana@gmail.com">tomohiro.koana@gmail.com</a></p>
 </div>
+
 </body>
 
 </html>

@@ -5,19 +5,21 @@
         <h1>{{ site.name | escape }}</h1>
         {%- if site.email -%}
           <p class="header-email">
-            {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+            {{ page.email_title | default: site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}">{{ site.email | escape }}</a>
           </p>
         {%- endif -%}
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
-      <p class="language-switch no-print">
-        {%- if page.lang == "ja" -%}
-          <a href="{{ '/?lang=en' | relative_url }}">English</a>
-        {%- else -%}
-          <a href="{{ '/ja/' | relative_url }}">日本語</a>
-        {%- endif -%}
-      </p>
+      <nav aria-label="{{ page.language_nav_label | default: 'Language' }}">
+        <p class="language-switch no-print">
+          {%- if page.lang == "ja" -%}
+            <a href="{{ '/?lang=en' | relative_url }}" lang="en" hreflang="en" aria-label="Switch to English">English</a>
+          {%- else -%}
+            <a href="{{ '/ja/' | relative_url }}" lang="ja" hreflang="ja" aria-label="日本語に切り替える">日本語</a>
+          {%- endif -%}
+        </p>
+      </nav>
 
     </div>
   </div>

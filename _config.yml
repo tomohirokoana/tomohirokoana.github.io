@@ -1,13 +1,26 @@
 # Site
 # repository: sproogen/resume-theme
-# favicon: images/favicon.ico
+favicon: images/favicon.ico
+lang: en
+locale: en_US
 
 # Personal info
 name: Tomohiro Koana
 title: Theoretical Computer Scientist
+description: Personal academic website of Tomohiro Koana, a theoretical computer scientist working on algorithms for NP-hard problems.
 email: tomohiro.koana@gmail.com
 url: "https://tomohirokoana.github.io"
 # website: www.github.com/sproogen/resume-theme
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /images/og.png
+        alt: Tomohiro Koana, Theoretical Computer Scientist
+        width: 1200
+        height: 630
 
 # Social links
 # twitter_username: facespics
