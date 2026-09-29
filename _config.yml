@@ -71,4 +71,5 @@ sass:
   style: compressed
 
 plugins:
+ - jekyll-remote-theme
  - jekyll-seo-tag
